@@ -8,6 +8,7 @@ console.log("working");
 // where the first coordinate is latitude (40.7) and the second is longitude (-94.5). We set the zoom level of "4" on a scale 0–18.
 let map = L.map('mapid').setView([40.7, -94.5], 4);
 
+
   // Tile Layer - used to load and display a tile layer on the map (SEE https://leafletjs.com/reference.html#tilelayer)
   // We create the tile layer that will be the background of our map.
   let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
